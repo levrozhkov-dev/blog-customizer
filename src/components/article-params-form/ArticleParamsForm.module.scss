@@ -25,6 +25,16 @@
 	border-right: 1px solid #000000;
 }
 
+.mainContainer {
+	> * {
+		margin-bottom: 50px;
+
+		&:last-child {
+			margin-bottom: 207px;
+		}
+	}
+}
+
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
